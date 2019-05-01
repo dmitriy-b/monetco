@@ -1,0 +1,1 @@
+java -jar swagger-codegen-cli.jar generate -i http://127.0.0.1:5000/swagger/v1/swagger.json -l csharp -o /tools/monetco/ -c config.json -DhideGenerationTimestamp=true
